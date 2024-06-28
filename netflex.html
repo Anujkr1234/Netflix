@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <title>Netflix.in</title>
+    <style>
+      body {
+        background-size: cover;
+        color: white;
+        font-family: Arial;
+      }
+      .saido {
+        height: 100vh;
+        margin-left: -10px;
+        width: 102%;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      header {
+        margin-top: -10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+      }
+      .brand-name {
+        margin-left: 62px;
+        font-size: 40px;
+        font-weight: bold;
+        color: red;
+      }
+      .right-header {
+        margin-right: 150px;
+        display: flex;
+        gap: 30px;
+      }
+      .search-lang {
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 4px;
+        height: 22px;
+      }
+      .search-lang span {
+        display: inline-block;
+        margin-right: 8px;
+        margin-left: 8px;
+        justify-content: center;
+        font-size: 14px;
+      }
+      .sin-in {
+        font-size: 14px;
+        background-color: red;
+        border-radius: 4px;
+        padding: 6px;
+        font-weight: bold;
+        height: 22px;
+        width: 70px;
+        text-align: center;
+      }
+      main {
+        text-align: center;
+        margin-top: 65px;
+      }
+      .unlimited {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .watch-any-time {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      .ready-watch {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .input-emial {
+        width: 400px;
+        height: 45px;
+        color: gray;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-left: 5px;
+        font-size: 18px;
+        padding: 5px;
+      }
+      .inter-email {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+       
+      }
+      .get-start {
+        padding: 13px;
+        background-color: red;
+        border: 2px solid white;
+        margin-left: 10px;
+        border-radius: 5px;
+        width: 130px;
+        font-size: 20px;
+      }
+      .space{
+        border-bottom: 10px solid rgb(51, 51, 51);
+      }
+      section{
+        background-color: black;
+      }
+      .enjoy-tv{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        padding: 75px;
+        
+      }
+      .e-tv{
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 25px;
+   
+      }
+      .players-more{
+        font-size: 20px;
+      }
+      .enjoy-tv-left{
+        margin-right: 35px;
+        margin-top: 40px;
+      }
+      .enjoy-tv-right{
+        margin-left: 35px;
+        }
+      .faq{
+        font-size: 55px;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 40px;
+      }
+      .definition{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 26px;
+        width: 65%;
+        height: 50px;
+        padding: 10px;
+        border: 1px solid gray;
+        margin-left: 270px;
+        background-color: rgb(47, 47, 47);
+        margin-bottom: 10px;
+      }
+      .questions{
+        margin-bottom: 75px;
+      }
+      .ready-watch{
+        text-align: center;
+      }
+      .space-last{
+        border-bottom: 10px solid rgb(51, 51, 51);
+        margin-top: 45px;
+        margin-bottom: 35px;
+
+      }
+      footer{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        padding: 25px;
+        list-style: none;
+        margin-left: 65px;
+        margin-bottom: 65px;
+        
+      }
+      li{
+        margin-bottom: 10px;
+     
+      }
+    </style>
+  </head>
+  <body background="./Public/nitflex baground image.jpg">
+    <div class="saido">
+      <header>
+        <div>
+          <span class="brand-name">NITFLEX</span>
+        </div>
+        <div class="right-header">
+          <div class="search-lang">
+            <span class="bi bi-translate"></span>
+            <span class="englsh">English</span>
+            <span class="bi bi-caret-down"></span>
+          </div>
+          <span class="sin-in">Sin in</span>
+        </div>
+      </header>
+      <main>
+        <div class="unlimited">Unlimited movies, TV shows and more</div>
+        <div class="watch-any-time">Watch anywhere. Cancel anytime.</div>
+        <div class="ready-watch">
+          Ready to watch? Enter your email to create or restart your membership.
+        </div>
+        <div class="inter-email">
+          <div>
+            <input
+              type="text"
+              value="Email address"
+              class="input-emial"
+              required
+            />
+          </div>
+          <div class="get-start">
+            Get start <span class="bi bi-chevron-compact-right"></span>
+          </div>
+        </div>
+        <div></div>
+        <div class="space">&nbsp;</div>
+      </main>
+     <section>
+      <div class="enjoy-tv">
+        <div class="enjoy-tv-left">
+            <div class="e-tv">Enjoy on your TV</div>
+            <div class="players-more">Watch on smart TVs, PlayStation, Xbox, Chromecast, <br> <br>
+                Apple TV, Blu-ray players and more.</div>
+        </div>
+        <div class="enjoy-tv-right">
+        <img src="./Public/netflix img 01.jpg" alt="" height="250" width="100%" >
+        </div>
+        
+              </div>
+              <div class="space">&nbsp;</div>
+              <div class="enjoy-tv">
+                <div class="enjoy-tv-left">
+                    <div class="e-tv">Watch everywhere</div>
+                    <div class="players-more">Watch on smart TVs, PlayStation, Xbox, Chromecast, <br> <br>
+                        Apple TV, Blu-ray players and more.</div>
+                </div>
+                <div class="enjoy-tv-right">
+                <img src="./Public/net flex image 2.jpg" alt="" height="250" width="100%" >
+                </div>
+                 </div>
+                 <div class="space">&nbsp;</div>
+                 <div class="questions">
+                   <p class="faq">Frequently Asked Questions</p>
+                   <div class="definition">
+                    <div>What is Netflix</div>
+                    <div><span class="bi bi-plus-lg"></span></div>
+                   </div>
+                   <div class="definition">
+                    <div>Wow much does netflix cost?</div>
+                    <div><span class="bi bi-plus-lg"></span></div>
+                   </div>
+                   <div class="definition">
+                    <div>Where can I watch?</div>
+                    <div><span class="bi bi-plus-lg"></span></div>
+                   </div>
+                   <div class="definition">
+                    <div>Wow do you chenal?</div>
+                    <div><span class="bi bi-plus-lg"></span></div>
+                   </div>
+                   <div class="definition">
+                    <div>What can I watch On netflix?</div>
+                    <div><span class="bi bi-plus-lg"></span></div>
+                   </div>
+                   <div class="definition">
+                    <div>It netflix good for kids?</div>
+                    <div><span class="bi bi-plus-lg"></span></div>
+                   </div>
+                   
+                 </div>
+                 <div class="ready-watch">
+                  Ready to watch? Enter your email to create or restart your membership.
+                </div>
+                <div class="inter-email">
+                  <div>
+                    <input
+                      type="text"
+                      value="Email address"
+                      class="input-emial"
+                      required
+                    />
+                  </div>
+                  <div class="get-start">
+                    Get start <span class="bi bi-chevron-compact-right"></span>
+                  </div>
+                   </div>
+                   <div class="space-last">&nbsp;</div>
+                   <footer>
+                    <div>
+                        <li>Questions? Call 000-800-919-1694</li>
+                       <li>FAQ</li>
+                       <li>Investor Relations</li>
+                       <li>Privacy</li>
+                       <li>Speed Test</li>
+                       <li>Netflix India</li>
+                    </div>
+                    <div>
+ <li>Help Centre</li>
+<li>Jobs</li>
+<li>Cookie Preferences</li>
+<li>Legal Notices</li>
+                    </div>
+                    <div>
+ <li>Account</li>
+<li>Ways to Watch</li>
+<li>Corporate Information</li>
+<li>Only on Netflix</li>
+                    </div>
+                    <div>
+<li>Media Centre</li>
+<li>Terms of Use</li>
+<li>Contact Us</li>
+                    </div>
+                  </footer >
+</section>
+
+    </div>
+  </body>
+</html>
